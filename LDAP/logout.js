@@ -10,7 +10,7 @@ function createButton()
 {
 	var button = document.createElement("button");
 	button.title = "Sign Out";
-	button.addEventListener('click', function() { logout(); });
+	button.addEventListener('click', function() { logout();  });
 	document.getElementById("signoutform").appendChild(button);
 }
 
